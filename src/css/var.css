@@ -1,0 +1,7 @@
+:root {
+    --primary-text-light: hsl(193, 38%, 86%);
+    --primary-text-neon: hsl(150, 100%, 66%);
+    --neutral-background-light: hsl(217, 19%, 38%);
+    --neutral-background-medium: hsl(217, 19%, 24%);
+    --neutral-background-dark: hsl(218, 23%, 16%);
+}
