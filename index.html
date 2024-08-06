@@ -11,31 +11,20 @@
   <link rel="stylesheet" href="/src/css/reset.css">
   <link rel="stylesheet" href="/src/css/var.css">
   <link rel="stylesheet" href="/src/css/style.css">
-
   <title>Frontend Mentor | Advice generator app</title>
+  <link rel="icon" href="/src/images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
   <div class="main-box">
-    <h1 class="advice-title">Advice #<span id="advice-number">177</span></h1>
-    <p id="advice">"It is easy to sit up and take notice, what's difficult is getting up and taking action"</p>
+    <h1 class="advice-title">Advice #<span id="advice-number"></span></h1>
+    <p id="advice">"Press the button to receive some advice"</p>
 
     <img class="divider" src="src/images/pattern-divider-desktop.svg" alt="divider">
 
-    <a class="button" href="#">
+    <a id="button">
       <img src="src/images/icon-dice.svg" alt="dice">
     </a>
   </div>
@@ -46,4 +35,5 @@
   </div>
 
 </body>
+  <script src="/src/js/index.js"></script>
 </html>

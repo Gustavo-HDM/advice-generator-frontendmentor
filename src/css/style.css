@@ -39,7 +39,7 @@ body {
     margin: 20px 50px;
 }
 
-.main-box .button {
+.main-box #button {
     position: absolute;
     background-color: var(--primary-text-neon);
     height: 60px;
@@ -53,10 +53,11 @@ body {
 }
 
 .main-box .divider {
-    margin-top: 20px
+    position: absolute;
+    transform: translateY(230px);
 }
 
-.main-box .button:hover {
+.main-box #button:hover {
     box-shadow: 0px 0px 35px 5px var(--primary-text-neon);
 }
 
