@@ -71,3 +71,14 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 565px) {
+    .main-box {
+        height: 55%;
+        width: 90%;
+    }
+
+    .main-box .divider {
+        transform: translateY(330px);
+    }
+}

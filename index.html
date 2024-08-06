@@ -22,7 +22,11 @@
     <h1 class="advice-title">Advice #<span id="advice-number"></span></h1>
     <p id="advice">"Press the button to receive some advice"</p>
 
-    <img class="divider" src="src/images/pattern-divider-desktop.svg" alt="divider">
+    <source>
+    <picture class="divider">
+      <source srcset="src/images/pattern-divider-mobile.svg" media="(max-width: 576px)">
+      <img src="src/images/pattern-divider-desktop.svg" alt="divider">
+    </picture>
 
     <a id="button">
       <img src="src/images/icon-dice.svg" alt="dice">
