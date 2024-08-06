@@ -1,5 +1,72 @@
 html {
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
-    /* background-color: var(--neutral-background-dark); */
+    background-color: var(--neutral-background-dark);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-box {
+    background-color: var(--neutral-background-medium);
+    border-radius: 10px;
+    height: 310px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative
+}
+
+.main-box .advice-title {
+    color: var(--primary-text-neon);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+
+}
+
+.main-box #advice {
+    color: var(--primary-text-light);
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.main-box .button {
+    position: absolute;
+    background-color: var(--primary-text-neon);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    transform: translateY(30px);
+    border-radius: 50px;
+}
+
+.main-box .divider {
+    margin-top: 20px
+}
+
+.main-box .button:hover {
+    box-shadow: 0px 0px 35px 5px var(--primary-text-neon);
+}
+
+.attribution {
+    position: absolute;
+    font-size: 11px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
